@@ -1,0 +1,108 @@
+html,body {
+    color: white;
+    background-color: #0080FF;
+    height: 100%;
+    font-family: helvetica, arial, sans-serif;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.custom {
+   position: relative;
+   background: url("/img/share_button.png") no-repeat scroll left top transparent;
+   background-size: 32px 32px;
+   padding:32px;
+   left: 80px;
+   top: -2px;
+}
+.submit {
+    font-weight: bold;
+    display: block;
+    line-height: 15px;
+    padding-top: 17px;
+    width: 65px;
+    text-align: right;
+}
+.container {
+    position:relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.compliment {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.cta {
+   padding-bottom: 20px;
+   padding-top: 20px;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:80px;   /* Height of the footer */
+}
+
+.content {
+    padding-bottom:80px;
+}
+
+
+.compliment {
+    padding-top: 40px;
+}
+
+.cta .links {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 60px;
+}
+
+.more {
+    border-left: thin solid white;
+}
+
+.better {
+    border-right: thin solid white;
+}
+
+.cta span {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    font-size: 23px;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.cta a {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.more a {
+}
+
+.better a {
+}
