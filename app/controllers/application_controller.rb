@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   # KEA http://stackoverflow.com/questions/5669322/turn-off-csrf-token-in-rails-3
-  skip_before_filter :verify_authenticity_token
+  # skip_before_filter :verify_authenticity_token
 
 end

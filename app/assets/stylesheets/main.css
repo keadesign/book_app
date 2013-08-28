@@ -1,8 +1,19 @@
 html,body {
-    color: white;
-    background-color: #0080FF;
-    height: 100%;
-    font-family: helvetica, arial, sans-serif;
+    color: dark grey;
+    background: #fff url(maple.jpg) no-repeat;
+    width: 1280;
+    height: 1024;
+    /*display: compact;*/
+    /*background-color: #0080FF;*/
+    /*height: 100%;*/
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Codystar', cursive;
+  font-weight: 400;
 }
 
 hr {
@@ -21,16 +32,16 @@ a:hover {
 
 .custom {
    position: relative;
-   background: url("/img/share_button.png") no-repeat scroll left top transparent;
+   background: url("/images/glyphicons-halflings-white.png") no-repeat scroll left top transparent;
    background-size: 32px 32px;
    padding:32px;
    left: 80px;
    top: -2px;
 }
 .submit {
-    font-weight: bold;
-    display: block;
-    line-height: 15px;
+    font-weight: none;
+    display: inline-block;
+    line-height: 18px;
     padding-top: 17px;
     width: 65px;
     text-align: right;
@@ -57,12 +68,12 @@ a:hover {
 }
 
 .content {
-    padding-bottom:80px;
+    padding-bottom:20px;
 }
 
 
 .compliment {
-    padding-top: 40px;
+    padding-top: 5px;
 }
 
 .cta .links {
@@ -75,11 +86,15 @@ a:hover {
 }
 
 .more {
-    border-left: thin solid white;
+    /*border-left: thin solid white;*/
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 .better {
     border-right: thin solid white;
+    padding-right: 20px;
+    font-weight: bold;
 }
 
 .cta span {

@@ -7,14 +7,7 @@ function random_compliment(event) {
     $(".compliment").html(compliment.phrase);
     $(".better a").attr("href", compliment.link);
     $("body").css("background-color", compliment.color);
-    // stWidget.addEntry({
-    //              "service":"sharethis",
-    //              "element":document.getElementById('st'),
-    //             "url":"http://emergencycompliment.com",
-    //              "title":compliment.phrase,
-    //              "type":"custom",
-    //              "summary": compliment.phrase
-    // });
+
 }
 
 
@@ -29,3 +22,6 @@ function init() {
 $(document).ready(function() {
     init();
 });
+
+
+
